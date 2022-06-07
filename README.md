@@ -79,7 +79,7 @@ table
 
 
 ## Vivado counter
-![](fpgaday1/fpgaday1.png)
+![](fpgaday1/Screenshot from 2022-06-04 11-43-23.png)
 ![](fpgaday1/fpgaday1createproj.png)
 ![](fpgaday1/fpgaday1boardparts.png)
 ![](fpgaday1/fpgaday1addcounterdesign.png)
