@@ -42,7 +42,7 @@ A “field programmable” gate array is an Integrated circuit designed to be co
 FPGA Architecture:
 FPGAs consists of the following building blocks:
 <ul>
- <il> Configurable logic blocks (CLBs): Implement combinatorial and sequential logic based on LUTs and Flip-flops or latches </il>
+ <li> Configurable logic blocks (CLBs): Implement combinatorial and sequential logic based on LUTs and Flip-flops or latches </li>
  </ul>
  
 Configurable logic blocks (CLB)-- Implement combinatorial and
