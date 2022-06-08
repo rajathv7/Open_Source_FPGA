@@ -51,12 +51,17 @@ A “field programmable” gate array is an Integrated circuit designed to be co
 </ul></p>
 
 ## Vivado counter
+Once installed, Vivado can be launched by the command <b>vivado</b> at the command prompt as shown below.
 ![](fpgaday1/vivado_launch.png)
+Then, proceed to create a new Project. Here the first project we will work on is a counter. 
 ![](fpgaday1/fpgaday1createproj.png)
-![](fpgaday1/fpgaday1boardparts.png)
+Search for the hardware target. We will use Basys3 board for this project as shown below. If the board doesn't show immediately on search, click on <b>Update Board Repositories</b> in the Right top corner.
+![](fpgaday1/basys3_board_selection.png)
+Add the source files and testbench as shown in the figures below.
 ![](fpgaday1/fpgaday1addcounterdesign.png)
 ![](fpgaday1/fpgaday1addtestbench.png)
-![](fpgaday1/fpgaday1countersimulation.png)
+Click on Run Simulation in the left panel and select <b>Run Behavioural Simulation</b>. The simulation results are obtained as shown below.
+![](fpgaday1/counter_simulation.png)
 ![](fpgaday1/fpgaday1counterselaboration.png)
 ![](fpgaday1/fpgaday1counterselaborationioplanning.png)
 ![](fpgaday1/fpgaday1counterselaborationconstraints.png)
