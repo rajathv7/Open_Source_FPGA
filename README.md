@@ -1,13 +1,13 @@
 # FPGA - Fabric, Design and Architecture
 FPGA - Fabric, Design and Architecture
 
-![](bannerfpga.png)
+![](banner_fpga.png)
 ### ABOUT THE WORKSHOP
 The Workshop is a 5-day program designed for freshers as well as professionals who are interested in contributing to the VLSI industry. It is a cloud based workshop that comprises of training courses covering RISC-V specs, RISC-V software, Implementation of RISC-V basic specifications using TL-Verilog and Simulation of RISC-V core. 
 
 #### 
 ### AGENDA
- [Day 1 Intro](#Day1-Intro)
+ [Day 1 ](#Day1)
   * [Part 1: FPGA introduction](#Part1-FPGA-introduction)
   * [Part 2: Vivado-counter](#Part2-Vivado-counter)
   * [Part 3: VIO Counter](#Part3-VIO-Counter)
@@ -17,11 +17,11 @@ The Workshop is a 5-day program designed for freshers as well as professionals w
   * [Part 2: VPR](#Part2-VPR)
   * [Part 3: VTR](#Part3-VTR)
 
- [Day 3 Introduction to RISC-V core programming on Vivado](#Day3-Introduction-to-RISC-V-core-programming-on-Vivado)
+ [Day 3 Introduction to RISC-V core ](#Day3-Introduction-to-RISC-V-core)
   * [Part 1: RVMyth vivado rtl-to-synthesis](#Part1-RVMyth-vivado-rtl-to-synthesis)
   * [Part 2: RVMyth Vivado synthesis-to-bitstream](#Part2-RVMyth-Vivado-synthesis-to-bitstream)
 
- [Day 4 Introduction to SOFA FPGA Fabric IP](#Day4-Introduction-to-SOFA-FPGA-Fabric-IP)
+ [Day 4 Introduction to SOFA IP](#Day4-Introduction-to-SOFA-IP)
   * [Part 1: SOFA counter area](#Part1-SOFA-counter-area)
   * [Part 2: Fetch, decode, and execute logic](#Part2-SOFA-counter-timing)
   * [Part 3: SOFA counter post impl](#Part3-SOFA-counter-post-impl)
