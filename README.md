@@ -12,7 +12,7 @@ The Workshop is a 5-day program designed for freshers as well as professionals w
   * [Part 2: Vivado-counter](#Part2-Vivado-counter)
   * [Part 3: VIO Counter](#Part3-VIO-Counter)
  
- [Day OpenFPGA2](#Day2-OpenFPGA)
+ [Day 2 OpenFPGA2](#Day2-OpenFPGA)
   * [Part 1: OpenFPGA Intro](#Part1-OpenFPGA-Intro)
   * [Part 2: VPR](#Part2-VPR)
   * [Part 3: VTR](#Part3-VTR)
@@ -35,36 +35,16 @@ The Workshop is a 5-day program designed for freshers as well as professionals w
   
 ## Day1-Intro
 ## FPGA introduction
-History of programmable logic
-● Programmable logic devices:
-– PLA – Programmable logic arrays
-– CPLD – Complex programmable logic device
-– FPGA
-– Generate customisable hardware
-– Study the effect of area, speed, power of the digital
-circuits
-What is an FPGA?
-● A “field programmable” gate array: Integrated
-circuit designed to be configured by a designer
-● FPGA configuration is specified using HDL
-similar to an ASIC (application specific
-Integrated circuit)
-● Logic design in FPGA is different
-– Uses LUTs, Flip-flops, configurable logic
-blocks
-ASIC(Application Specific Integrated Circuit) is designed from RTL to layout. Layout must be sent to semiconductor foundary for fabrication. ASIC cannot be reprogrammed.
-FPGA (Field Programmable Gate Array) is designed from RTL to bitstream. Design programmed on the FPGA which is bought off-the-shelf. FPGA can be re-programmed.
+The History of manufacturing programmable hardware goes back to the days of Programmable logic devices (PLDs) and Programmable logic arrays (PLAs)s where arrays of AND gates and OR gates were fabricated with fuses blown to make or break connections. Leter on, Complex programmable logic devices (CPLDs) arrived on the scene, finally making way for Field-Programmable Gate Arrays (FPGA). FPGA chips are customisable hardware which can be used for rapid prototyping and to study the effect of area, speed, power of the digital circuits.
 
-Applications
-● Hardware acceleration
-● Signal processing
-● Device controllers
-● Embedded systems
-● Aerospace
-● High performance computing
-● Machine learning
+A “field programmable” gate array is an Integrated circuit designed to be configured by a designer using HDL similar to an ASIC (Application Specific Integrated Circuit), but FPGAs use look-up tables (LUTs), Flip-flops and programmable interconnect and I/O blocks. ASICs (Application Specific Integrated Circuit) are designed from RTL to layout. Layout must be sent to semiconductor foundary for fabrication. ASICs, once fabricated, cannot be reprogrammed. FPGAs (Field Programmable Gate Array) are designed from RTL to bitstream. Design programmed on the FPGAs which are bought off-the-shelf. FPGAs can be re-programmed.
 
-FPGA Architecture
+FPGA Architecture:
+FPGAs consists of the following building blocks:
+<ul>
+ <il> Configurable logic blocks (CLBs): Implement combinatorial and sequential logic based on LUTs and Flip-flops or latches </il>
+ </ul>
+ 
 Configurable logic blocks (CLB)-- Implement combinatorial and
 sequential logic. Based on LUT and Flip-flop/latches
 Look-up Tables (LUT) which implement the logic functions- truth
