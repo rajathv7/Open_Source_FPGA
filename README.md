@@ -12,7 +12,7 @@ The Workshop is a 5-day program designed for freshers as well as professionals w
   * [Part 2: Vivado-counter](#Part2-Vivado-counter)
   * [Part 3: VIO Counter](#Part3-VIO-Counter)
  
- [Day 2 OpenFPGA2](#Day2-OpenFPGA)
+ [Day 2 OpenFPGA](#Day2-OpenFPGA)
   * [Part 1: OpenFPGA Intro](#Part1-OpenFPGA-Intro)
   * [Part 2: VPR](#Part2-VPR)
   * [Part 3: VTR](#Part3-VTR)
@@ -62,6 +62,7 @@ Add the source files and testbench as shown in the figures below.
 ![](fpgaday1/fpgaday1addtestbench.png)
 Click on Run Simulation in the left panel and select <b>Run Behavioural Simulation</b>. The simulation results are obtained as shown below.
 ![](fpgaday1/counter_simulation.png)
+
 ![](fpgaday1/fpgaday1counterselaboration.png)
 ![](fpgaday1/fpgaday1counterselaborationioplanning.png)
 ![](fpgaday1/fpgaday1counterselaborationconstraints.png)
