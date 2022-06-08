@@ -43,18 +43,12 @@ FPGA Architecture:
 FPGAs consists of the following building blocks:
 <ul>
  <li> Configurable logic blocks (CLBs): Implement combinatorial and sequential logic based on LUTs and Flip-flops or latches </li>
- </ul>
- 
-Configurable logic blocks (CLB)-- Implement combinatorial and
-sequential logic. Based on LUT and Flip-flop/latches
-Look-up Tables (LUT) which implement the logic functions- truth
-table
-- Carry and Control Logic- Implements arithmetic operations
-- Flip Flops (FFs)/ Latches
-- Memory Elements
-- Programmable I/O blocks - Configurable I/Os for external interface connections
-- Programmable interconnect- Wires to connect inputs, CLBs
-
+ <li> Carry and Control Logic: Implements arithmetic operations </li>
+ <li> Flip Flops (FFs)/ Latches </li>
+ <li> Memory Elements </li>
+ <li> Programmable I/O blocks: Configurable I/Os for external interface connections </li>
+ <li> Programmable interconnect: Wires to connect inputs, CLBs and outputs </li>
+</ul>
 
 
 
