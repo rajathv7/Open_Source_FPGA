@@ -50,10 +50,8 @@ FPGAs consists of the following building blocks:
  <li> Programmable interconnect: Wires to connect inputs, CLBs and outputs </li>
 </ul>
 
-
-
 ## Vivado counter
-![](fpgaday1/Screenshot from 2022-06-04 11-43-23.png)
+![](fpgaday1/vivado_launch.png)
 ![](fpgaday1/fpgaday1createproj.png)
 ![](fpgaday1/fpgaday1boardparts.png)
 ![](fpgaday1/fpgaday1addcounterdesign.png)
