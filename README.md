@@ -39,7 +39,7 @@ The History of manufacturing programmable hardware goes back to the days of Prog
 
 A “field programmable” gate array is an Integrated circuit designed to be configured by a designer using HDL similar to an ASIC (Application Specific Integrated Circuit), but FPGAs use look-up tables (LUTs), Flip-flops and programmable interconnect and I/O blocks. ASICs (Application Specific Integrated Circuit) are designed from RTL to layout. Layout must be sent to semiconductor foundary for fabrication. ASICs, once fabricated, cannot be reprogrammed. FPGAs (Field Programmable Gate Array) are designed from RTL to bitstream. Design programmed on the FPGAs which are bought off-the-shelf. FPGAs can be re-programmed.
 
-FPGA Architecture:
+### FPGA Architecture:
 <p>FPGAs consists of the following building blocks:
 <ul>
  <li> Configurable logic blocks (CLBs): Implement combinatorial and sequential logic based on LUTs and Flip-flops or latches </li>
