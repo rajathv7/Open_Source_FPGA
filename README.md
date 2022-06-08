@@ -33,7 +33,7 @@ The Workshop is a 5-day program designed for freshers as well as professionals w
   * [Part 3: RVMyth-post impl netlist](#Part3-RVMyth-post-impl-netlist)
   * [Part 4: SOFA-RVMyth Vivado simulation](#Part4-SOFA-RVMyth-Vivado-simulation)
   
-## Day1-Intro
+## Day1
 ## FPGA introduction
 The History of manufacturing programmable hardware goes back to the days of Programmable logic devices (PLDs) and Programmable logic arrays (PLAs)s where arrays of AND gates and OR gates were fabricated with fuses blown to make or break connections. Leter on, Complex programmable logic devices (CPLDs) arrived on the scene, finally making way for Field-Programmable Gate Arrays (FPGA). FPGA chips are customisable hardware which can be used for rapid prototyping and to study the effect of area, speed, power of the digital circuits.
 
