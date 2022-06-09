@@ -57,16 +57,17 @@ Then, proceed to create a new Project. Here the first project we will work on is
 ![](fpgaday1/fpgaday1createproj.png)
 Search for the hardware target. We will use Basys3 board for this project as shown below. If the board doesn't show immediately on search, click on <b>Update Board Repositories</b> in the Right top corner.
 ![](fpgaday1/basys3_board_selection.png)
-Add the source files and testbench as shown in the figures below.
-![](fpgaday1/fpgaday1addcounterdesign.png)
-![](fpgaday1/fpgaday1addtestbench.png)
-Click on Run Simulation in the left panel and select <b>Run Behavioural Simulation</b>. The simulation results are obtained as shown below.
+Add the source files and testbench. Click on Run Simulation in the left panel and select <b>Run Behavioural Simulation</b>. The simulation results are obtained as shown below.
 ![](fpgaday1/counter_simulation.png)
+Click on <b>Elaborate Design</b> under <b>RTL Analysis</b> on the left panel. The result is as shown below:
+![](fpgaday1/elaborated_design.png)
+Click on the drop down menu on the right top corner and select <b>I/O Planning</b> to show the overall FPGA layout and select the pins to be connected to the terminals of the design.
+![](fpgaday1/io_planning.png)
+Choose the pin connections as shown below and change the I/O standard to LVCMOS33 which stands for Low (threshold) Voltage CMOS with supply voltage 3.3 V.
+![](fpgaday1/pin_connections.png)
+The pin connections thus made will generate the constraints file as shown below:
+![](fpgaday1/xdc_constraints.png)
 
-![](fpgaday1/fpgaday1counterselaboration.png)
-![](fpgaday1/fpgaday1counterselaborationioplanning.png)
-![](fpgaday1/fpgaday1counterselaborationconstraints.png)
-![](fpgaday1/fpgaday1counterssynthesistimingreport.png)
 ![](fpgaday1/fpgaday1counterssynthesistsolved.png)
 ![](fpgaday1/fpgaday1counterssynthesiswizardconstraint.png)
 ![](fpgaday1/fpgaday1counterssynthesisconstraintsummary.png)
