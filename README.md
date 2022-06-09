@@ -78,7 +78,7 @@ When the timing analysis is run with the updated constraints, the results are ob
 ![](fpgaday1/sta_values.png)
 The worst negative slack is found to be 5.989 ns and the worst hold slack is 0.117 ns, thus the specified design constraints are met.
 
-<p>By clicking on the number 5.989 ns, it opens up a window showing all the paths and the associated details one by one. The critical path is displayed first, as shown below:
+<p>By clicking on the number 5.989 ns, it opens up a window showing all the paths and the associated details one by one. The critical path is displayed first, as shown below:</p>
 ![](fpgaday1/individual_path.png)
  Run implementation next and generate the various reports. The power report is obtained as follows:
 ![](fpgaday1/power_report.png)
