@@ -68,8 +68,11 @@ Choose the pin connections as shown below and change the I/O standard to LVCMOS3
 The pin connections thus made will generate the constraints file as shown below:
 ![](fpgaday1/xdc_constraints.png)
 
-![](fpgaday1/fpgaday1counterssynthesistsolved.png)
-![](fpgaday1/fpgaday1counterssynthesiswizardconstraint.png)
+Now, rerun Synthesis and look for timing report. We find the following report:
+![](fpgaday1/sta_blank.png)
+All the slack numbers are blank since the time period of the clock was not set. The same is to be done by clicking on <b>Edit Timing Constraints</b> under the <b>Synthesis</b> tab on the left panel.
+![](fpgaday1/add_timing_const.png)
+
 ![](fpgaday1/fpgaday1counterssynthesisconstraintsummary.png)
 ![](fpgaday1/fpgaday1counterssynthesispositiveslack.png)
 ![](fpgaday1/fpgaday1counterssynthesisschematic.png)
