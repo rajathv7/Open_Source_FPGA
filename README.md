@@ -80,8 +80,10 @@ The worst negative slack is found to be 5.989 ns and the worst hold slack is 0.1
 
 <p>By clicking on the number 5.989 ns, it opens up a window showing all the paths and the associated details one by one. The critical path is displayed first, as shown below:
 ![](fpgaday1/individual_path.png)
-![](fpgaday1/fpgaday1implementation.png)
-![](fpgaday1/fpgaday1implementationutilization.png)
+ Run implementation next and generate the various reports. The power report is obtained as follows:
+![](fpgaday1/power_report.png)
+ The summary of the utilization is as follows:
+![](fpgaday1/utilization.png)
 ![](fpgaday1/fpgaday1implementationutilization2.png)
 ![](fpgaday1/fpgaday1implementatiocomplete.png)
 ![](fpgaday1/fpgaday1writebitstreamcomplete.png)
