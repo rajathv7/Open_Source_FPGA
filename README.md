@@ -72,10 +72,14 @@ Now, rerun Synthesis and look for timing report. We find the following report:
 ![](fpgaday1/sta_blank.png)
 All the slack numbers are blank since the time period of the clock was not set. The same is to be done by clicking on <b>Edit Timing Constraints</b> under the <b>Synthesis</b> tab on the left panel.
 ![](fpgaday1/add_timing_const.png)
+Since the clock is the only signal which can be constrained in this design, it automatically shows up in the wizard. Set the clock period to be 10 ns or 100 MHz as below. The corresponding tcl command will be generated automatically and displayed in the bottom window.
+![](fpgaday1/const_clk.png)
+When the timing analysis is run with the updated constraints, the results are obtained as shown below:
+![](fpgaday1/sta_values.png)
+The worst negative slack is found to be 5.989 ns and the worst hold slack is 0.117 ns, thus the specified design constraints are met.
 
-![](fpgaday1/fpgaday1counterssynthesisconstraintsummary.png)
-![](fpgaday1/fpgaday1counterssynthesispositiveslack.png)
-![](fpgaday1/fpgaday1counterssynthesisschematic.png)
+<p>By clicking on the number 5.989 ns, it opens up a window showing all the paths and the associated details one by one. The critical path is displayed first, as shown below:
+![](fpgaday1/individual_path.png)
 ![](fpgaday1/fpgaday1implementation.png)
 ![](fpgaday1/fpgaday1implementationutilization.png)
 ![](fpgaday1/fpgaday1implementationutilization2.png)
