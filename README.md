@@ -79,23 +79,20 @@ When the timing analysis is run with the updated constraints, the results are ob
 The worst negative slack is found to be 5.989 ns and the worst hold slack is 0.117 ns, thus the specified design constraints are met.
 
 By clicking on the number 5.989 ns, it opens up a window showing all the paths and the associated details one by one. The critical path is displayed first, as shown below:
+
 ![](fpgaday1/individual_path.png)
- Run implementation next and generate the various reports. The power report is obtained as follows:
+
+Run implementation next and generate the various reports. The power report is obtained as follows:
 ![](fpgaday1/power_report.png)
- The summary of the utilization is as follows:
+The summary of the utilization is as follows:
 ![](fpgaday1/utilization.png)
-![](fpgaday1/fpgaday1implementationutilization2.png)
-![](fpgaday1/fpgaday1implementatiocomplete.png)
-![](fpgaday1/fpgaday1writebitstreamcomplete.png)
-![](fpgaday1/fpgaday1openhardwaremngrautoconnect.png)
 
-## VIO Counter
+If the FPGA is physically available, then connect the laptop/PC using a JTAG cable to the FPGA. Generate the bitstream for the project worked upon so far. Open hardware manager and download the bitstream generated on to the FPGA. The reset pin is mapped to a switch and the counter outputs are shown on the LEDs.
 
-Different ways of programming
-● Local programing on the Basys3 board
-● Remote programing
-– Inputs through Virtual Input/Output and Outputs observed on the board
-– Inputs through Virtual Input/Output and Outputs observed on the Integrated Logic Analyzer (ILA)
+If FPGA is not available locally, but is available remotely, then the IP virtual input-output (VIO) can be used to provide inputs to the FPGA remotely and observe the output/s, as discussed next.
+
+## Counter Implementation through Virtual Input-Output (VIO)
+When the FPGA (Basys3 board in this example) is available remotely, the inputs are provided through Virtual Input/Output (VIO) and outputs are observed on the Integrated Logic Analyzer (ILA). The inputs of the design will then become the output of the VIO block while the outputs of the design will become inputs to the VIO block. Since the clock signal is sourced from the FPGA board itself through pin W5, it will continue to be the terminal input for the design. In this case, since the divided clock is given as input to the design, the main clock is taken 
 ![](fpgaday1/fpgaday1ipcatalogvio.png)
 ![](fpgaday1/fpgaday1vioioplanning.png)
 ![](fpgaday1/fpgaday1viobitstream.png)
